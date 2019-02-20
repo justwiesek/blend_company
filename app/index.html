@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Blend Coffee Company</title>
+    
+<!--  CSS styles  -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+<!--  Font awesome  -->
+   
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    
+    <section class="header" id="header">
+       
+       <header class="header__item">
+           <nav class="header__nav">
+              <div class="title">
+                <h1 class="title__text">blend coffee company</h1>
+              </div>
+              
+              <div class="logo">
+                   <a href="#" class="logo__link">
+                    <img src="images/logo.png" class="logo__img">
+                   </a>
+               </div>
+
+               <ul class="menu" id="menu">
+                   <li><a href="#call" class="menu__list">call</a></li>
+                   <li><a href="#email" class="menu__list">email</a></li>
+                   <li><a href="#journal" class="menu__list">journal</a></li>
+                   <li><a href="#insta" class="menu__list"><span class="icons fab fa-instagram" aria-hidden="true"></span></a></li>
+                   <li><a href="#facebook" class="menu__list"><span class="icons fab fa-facebook-f" aria-hidden="true"></span></a></li>
+                   <li><a href="#twitter" class="menu__list"><span class="icons fab fa-twitter" aria-hidden="true"></span></a></li>
+               </ul>
+           </nav>
+           <div class="menu__trigger" id="bars"></div>
+           <div class="menu__overlay" id="overlay"></div>
+           <div class="menu__close" id="close"></div>
+       </header>
+    </section>
+
+
+    <section class="swiper-container" id="slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/coffee1.jpg" alt="" class="img__responsive">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/coffee2.jpg" alt="" class="img__responsive">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/coffee3.jpg" alt="" class="img__responsive">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+     </section>
+
+
+     <section>
+        <div class="contact">
+            <ul class="contact__list">
+                <li class="contact__items">
+                    <h2 class="contact__text">Location</h2>
+                    <p class="contact__details">123 Demo Street
+                    <br>
+                    Brooklyn, New York 12345
+                    </p>
+                </li>
+
+                <li class="contact__items">
+                    <h2 class="contact__text">Hours</h2>
+                    <p class="contact__details">Monday - Saturday | 6am - 8pm
+                    <br>
+                    Sunday | 7am - 7pm
+                    </p>
+                </li>
+
+                <li class="contact__items">
+                    <h2 class="contact__text">Contact</h2>
+                    <p class="contact__details">555.555.5555
+                    <br>
+                    email@email.com
+                    </p>
+                </li>
+            </ul>  
+        </div>
+     </section>
+
+
+     <section class="gallery">
+         <div class="gallery__div">
+             <ul class="gallery__list">
+                 <li class="list">
+                    <img src="images/img1.jpeg" alt="" class="list__img">
+                 </li>
+
+                 <li class="list">
+                    <img src="images/img2.jpeg" alt="" class="list__img">
+                 </li>
+             </ul>
+         </div>
+
+
+    <section class="about">
+        <div class="about__wrapper">
+            <ul class="about__list">
+                <li class="box box-blend">
+                    <h2 class="box__text"> - Blend Coffee Company - </h2>
+                    <p class="box__details"> [ a love affair with coffee ]</p>
+                </li>
+
+                <li class="box box-text">
+                    <img src="images/logo2.png" alt="" class="box__img">
+                    <p class="box__description">Here is a description of your company. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum lorem at leo vestibulum dapibus non vitae arcu. Pellentesque dignissim consectetur magna dictum sagittis. Vestibulum porta, augue eu iaculis aliquet, mauris dui ornare velit, vel ultricies sem purus nec risus.</p> 
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="newsletter" id="news">
+            <div class="newsletter__div">
+                <div class="newsletter__bg">
+                    <h2 class="newsletter__text">
+                        - Brewed Fresh Daily - 
+                    </h2>
+
+                    <p class="newsletter__details">
+                        [ subscribe to our newsletter ]
+                    </p>
+
+                    <form action="email">
+                        <div class="submit">
+                            <label for="email">
+                            <input type="text" placeholder="Email Address" class="submit__input" required></label>
+                            <button class="submit__button">Sign up</button>
+                        </div>
+                    </form>
+                </div>         
+            </div>
+        </div>
+    </section>
+
+    <section>
+            <div class="maps">
+                <ul class="maps__list">
+                    <li class="maps__items maps-li">
+                        <h2 class="maps__text">Location</h2>
+                        <p class="maps__paragraph">123 Demo Street
+                        <br>
+                        Brooklyn, New York 12345
+                        </p>
+                    </li>
+
+                    <li class="maps__direction maps-li">
+                        <p class="maps__paragraph">Here are directions to your business. Suspendisse venenatis bibendum nunc, et fermentum massa tristique sit amet. Etiam quis leo non quam efficitur varius non nec enim. Etiam pretium maximus laoreet.
+                        </p><br>
+                        <a href="https://www.google.com/maps" class="maps__href">Get Directions</a>
+                    </li>
+
+                    <li class="maps-li">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2830188532344!2d-73.96677578488882!3d40.71178574556607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bdf47aa86e7%3A0xf66e1e69a500c471!2s95+S+5th+St%2C+Brooklyn%2C+NY+11249%2C+Stany+Zjednoczone!5e0!3m2!1spl!2spl!4v1549630025784" class="maps__iframe"></iframe>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+
+
+         <footer>
+             <div class="footer">
+                 <ul class="footer__list">
+                     <li class="footer__items">
+                        <a href="#">
+                        <img src="images/logo.png" class="footer__img">
+                        </a>
+                     </li>
+
+                     <li class="footer__items">
+                        <h2 class="footer__text">&copy blend coffee company</h2>
+                     </li>
+
+                     <li class="footer__items">
+                        <p class="footer__paragraph">123 Demo Street
+                        <br>
+                        Brooklyn, New York 12345
+                        </p>
+                     </li>
+
+                     <li class="footer__items">
+                        <button class="footer__button">Contact</button>
+                     </li>
+                </ul>
+
+                <ul class="footer__wrap">
+                   <li><a href="#call" class="footer__href">call</a></li>
+                   <li><a href="#email" class="footer__href">email</a></li>
+                   <li><a href="#journal" class="footer__href">journal</a></li>
+                   <li><a href="#careers" class="footer__href">careers</a></li>
+                </ul>     
+             </div>
+         </footer>
+
+       
+
+
+     <script src="js/swiper.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>

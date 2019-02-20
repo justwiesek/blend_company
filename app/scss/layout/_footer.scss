@@ -1,0 +1,87 @@
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    
+    .footer__list {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+
+        .footer__items {
+            text-align: center;
+            padding: 10px 0;
+
+            .footer__img {
+                max-width: 50px;
+                width: 100%;
+            }
+
+            .footer__paragraph {
+                @include p-style;
+            }
+
+            .footer__button {
+                width: 150px;
+                height: 50px;
+                cursor: pointer;
+                margin-left: 20px;
+                background: transparent;
+                border: 2px solid #fa5553;
+                font-family: "Courier New", Courier, monospace;
+                font-size: 16px;
+                color: #fa5553;
+
+                    &:hover {
+                        background: #fa5553;
+                        color: #fff;
+                        -webkit-transition: 0.4s background-color linear, 0.4s color linear;
+                        transition: 0.4s background-color linear, 0.4s color linear;
+                    }
+            }
+        }
+
+            .footer__text {
+                @include main-style;
+            }   
+    }
+
+    .footer__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;  
+        -webkit-box-pack: center;  
+            -ms-flex-pack: center;  
+                justify-content: center;
+        padding: 40px 0;
+        
+        .footer__href {
+            @include main-style;
+            margin: 0.5em;
+            padding: 0.8em 0;
+        
+            &:hover {
+                -webkit-transition: 0.4s;
+                transition: 0.4s; 
+                color: $hover; 
+            } 
+        }
+    }
+}

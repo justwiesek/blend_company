@@ -1,0 +1,43 @@
+
+
+@mixin main-style {
+    font-size: 10px;
+    font-family: $main-font;
+    text-transform: uppercase;
+    color: $font-color;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.2em;
+    text-decoration: none; 
+}
+
+@mixin p-style {
+    font-family: "Courier New",Courier,monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
+}
+
+@mixin blend {
+    font-family: ltc-bodoni-175;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: .07em;
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+@mixin blend-love {
+    font-family: ltc-bodoni-175;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: .25em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
