@@ -3,8 +3,8 @@
 created with HTML, SASS, vanilla JS
 
 ### Requirements
-* Node.js (https://nodejs.org/en/)
-* NPM (https://www.npmjs.com/)
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/)
  
 ## Usage
 First clone the repo:
