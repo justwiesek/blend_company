@@ -18,7 +18,7 @@ Then install all required dependencies:
 $ npm i
 ```
 
-And run the app:
+And run the page by:
 ```
 $ gulp serve
 ```
