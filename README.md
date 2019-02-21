@@ -20,6 +20,6 @@ $ npm i
 
 And run the app:
 ```
-$ npm run start
+$ gulp serve
 ```
-Now it should be running at localhost:8080.
+Now it should be running at localhost:3000
