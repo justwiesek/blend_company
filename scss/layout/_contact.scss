@@ -1,0 +1,44 @@
+
+    .contact {
+        width: 100%;
+
+        &__list {
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+        &__items {
+            margin: 50px auto; 
+            width: 450px;
+        }
+
+        &__text {
+            @include main-style;
+        }
+        &__details {
+            @include p-style;
+        }
+    }
+
+
+
+    @media only screen and (max-width: get-breakpoint(small)) {
+
+        .contact {
+    
+            &__items {
+                margin: 10px auto; 
+                width: 450px;
+            }
+        }
+
+    }
